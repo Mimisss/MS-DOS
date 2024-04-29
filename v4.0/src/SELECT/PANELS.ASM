@@ -1684,7 +1684,8 @@ PCB37	LABEL	WORD		;AN000;
 	DW	0		;AN000;Length compress panel in mem
 	DW	0		;AN000;Off addr compressed panel
 	DW	0		;AN000;Seg addr compressed panel
-	DW   PANEL37_W*PANEL37_L;AN000;Length expanded panel in mem
+	DW   PANEL37_W*PANEL37_L;AN000
+	;Length expanded panel in mem
 	DW	OFFSET PANEL37	 ;AN000;Off addr of expanded panel in
 	DW	0		;AN000;Seg addr of expanded panel in
 	DW	0		;AN000;Len of the mixed panel in mem
